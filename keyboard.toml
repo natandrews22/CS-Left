@@ -1,5 +1,5 @@
 [keyboard]
-name = "Split65_Left"
+name = "Split65"
 product_name = "Split65"
 vendor_id = 0x4C4B
 product_id = 0x4643
@@ -19,11 +19,29 @@ default_tx_power = 0
 
 [split]
 connection = "ble"
-central = true
 
-[matrix]
+[split.central]
+rows = 6
+cols = 7
+row_offset = 0
+col_offset = 0
+
+[split.central.matrix]
+matrix_type = "normal"
 row_pins = ["P0_17","P0_20","P0_22","P1_00","P0_11","P1_04"]
 col_pins = ["P0_09","P0_10","P0_29","P0_31","P1_01","P1_02","P1_07"]
+row2col = true
+
+[[split.peripheral]]
+rows = 6
+cols = 9
+row_offset = 0
+col_offset = 7
+
+[split.peripheral.matrix]
+matrix_type = "normal"
+row_pins = ["P0_17","P0_20","P0_22","P1_00","P0_11","P1_04"]
+col_pins = ["P0_09","P0_10","P0_29","P0_31","P1_07","P1_02","P1_01","P1_13","P1_11"]
 row2col = true
 
 [layout]
