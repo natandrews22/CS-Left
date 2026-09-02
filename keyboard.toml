@@ -68,5 +68,5 @@ Grv 1 2 3 4 5 6 7 8 9 0 Minus Equal _ Bspc _
 Tab Q W E R T Y U I O P LBrc RBrc _ Enter _
 CapsLock A S D F G H J K L SColon Quote _ _ _
 LShift Z X C V B N M Comma Dot Slash _ Up _ _
-LCtrl LGui LAlt _ Space _ RAlt Menu _ _ Left Down Right _ _
+LCtrl LGui LAlt _ Space _ RAlt Menu - _ Left Down Right _ _
 """
